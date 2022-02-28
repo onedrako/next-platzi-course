@@ -17,7 +17,11 @@ const Header = () => {
       <nav className={styles.Nav}>
         <Image src={menu} alt="menu" className={styles.menu} />
         <div className={styles['navbar-left']}>
-            <Image  src={logo} alt="logo" className={styles['nav-logo']} />
+          <Link href="/" passHref>
+            <a href={"/"}>
+              <Image  src={logo} alt="logo" className={styles['nav-logo']} />
+            </a>
+          </Link>
           <ul>
             <li>
               <Link href={"/"}>All</Link>
