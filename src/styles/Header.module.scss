@@ -9,6 +9,7 @@
   top: 0;
   background: white;
   width: calc(100% - 50px);
+  z-index: 1;
 }
 .menu {
   display: none;
@@ -32,6 +33,11 @@
 .navbar-left ul {
   margin-left: 12px;
 }
+
+.navbar-right li:first-of-type{
+  margin-right: 12px;
+}
+
 .navbar-left ul li a,
 .navbar-right ul li a {
   text-decoration: none;
